@@ -1,0 +1,30 @@
+From c6d5b43eefd8214cf7ec19f3d9e249640d8d1733 Mon Sep 17 00:00:00 2001
+From: kasi91 <kasi@experienceflow.com>
+Date: Mon, 3 Jun 2019 05:50:24 +0000
+Subject: [PATCH 2/2] fixed
+
+---
+ pom.xml | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/pom.xml b/pom.xml
+index b0907f2..3876263 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -3,10 +3,10 @@
+ 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+ 	<modelVersion>4.0.0</modelVersion>
+ 
+-	<groupId>com.in28minutes.springboot.rest.example</groupId>
+-	<artifactId>spring-boot-2-jpa-with-hibernate-and-h2</artifactId>
++	<groupId>com.in28minutes.kasi.rest.example</groupId>
++	<artifactId>spring-kasi-h2</artifactId>
+ 	<version>0.0.1-SNAPSHOT</version>
+-	<packaging>jar</packaging>
++	<packaging>war</packaging>
+ 
+ 	<name>spring-boot-2-jpa-with-hibernate-and-h2</name>
+ 	<description>Spring Boot 2, Hibernate, JPA and H2 - Example Project</description>
+-- 
+2.7.4
+
